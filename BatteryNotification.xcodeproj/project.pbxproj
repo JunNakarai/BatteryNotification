@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFB7031B2C979CFA0064418D /* BatteryNotification Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BFB7031A2C979CFA0064418D /* BatteryNotification Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFB7031C2C979CFA0064418D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB7030E2C979CFA0064418D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB703192C979CFA0064418D;
+			remoteInfo = "BatteryNotification Watch App";
+		};
+		BFB7032D2C979CFC0064418D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB7030E2C979CFA0064418D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB703192C979CFA0064418D;
+			remoteInfo = "BatteryNotification Watch App";
+		};
+		BFB703372C979CFC0064418D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB7030E2C979CFA0064418D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB703192C979CFA0064418D;
+			remoteInfo = "BatteryNotification Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFB703432C979CFC0064418D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BFB7031B2C979CFA0064418D /* BatteryNotification Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BFB703142C979CFA0064418D /* BatteryNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB7031A2C979CFA0064418D /* BatteryNotification Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BatteryNotification Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB7032C2C979CFC0064418D /* BatteryNotification Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BatteryNotification Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB703362C979CFC0064418D /* BatteryNotification Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BatteryNotification Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BFB7031E2C979CFA0064418D /* BatteryNotification Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BatteryNotification Watch App";
+			sourceTree = "<group>";
+		};
+		BFB7032F2C979CFC0064418D /* BatteryNotification Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BatteryNotification Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BFB703392C979CFC0064418D /* BatteryNotification Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BatteryNotification Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB703172C979CFA0064418D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB703292C979CFC0064418D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB703332C979CFC0064418D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB7030D2C979CFA0064418D = {
+			isa = PBXGroup;
+			children = (
+				BFB7031E2C979CFA0064418D /* BatteryNotification Watch App */,
+				BFB7032F2C979CFC0064418D /* BatteryNotification Watch AppTests */,
+				BFB703392C979CFC0064418D /* BatteryNotification Watch AppUITests */,
+				BFB703152C979CFA0064418D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB703152C979CFA0064418D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB703142C979CFA0064418D /* BatteryNotification.app */,
+				BFB7031A2C979CFA0064418D /* BatteryNotification Watch App.app */,
+				BFB7032C2C979CFC0064418D /* BatteryNotification Watch AppTests.xctest */,
+				BFB703362C979CFC0064418D /* BatteryNotification Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB703132C979CFA0064418D /* BatteryNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB703442C979CFC0064418D /* Build configuration list for PBXNativeTarget "BatteryNotification" */;
+			buildPhases = (
+				BFB703122C979CFA0064418D /* Resources */,
+				BFB703432C979CFC0064418D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB7031D2C979CFA0064418D /* PBXTargetDependency */,
+			);
+			name = BatteryNotification;
+			packageProductDependencies = (
+			);
+			productName = BatteryNotification;
+			productReference = BFB703142C979CFA0064418D /* BatteryNotification.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		BFB703192C979CFA0064418D /* BatteryNotification Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB703402C979CFC0064418D /* Build configuration list for PBXNativeTarget "BatteryNotification Watch App" */;
+			buildPhases = (
+				BFB703162C979CFA0064418D /* Sources */,
+				BFB703172C979CFA0064418D /* Frameworks */,
+				BFB703182C979CFA0064418D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BFB7031E2C979CFA0064418D /* BatteryNotification Watch App */,
+			);
+			name = "BatteryNotification Watch App";
+			packageProductDependencies = (
+			);
+			productName = "BatteryNotification Watch App";
+			productReference = BFB7031A2C979CFA0064418D /* BatteryNotification Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFB7032B2C979CFC0064418D /* BatteryNotification Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB703472C979CFC0064418D /* Build configuration list for PBXNativeTarget "BatteryNotification Watch AppTests" */;
+			buildPhases = (
+				BFB703282C979CFC0064418D /* Sources */,
+				BFB703292C979CFC0064418D /* Frameworks */,
+				BFB7032A2C979CFC0064418D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB7032E2C979CFC0064418D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BFB7032F2C979CFC0064418D /* BatteryNotification Watch AppTests */,
+			);
+			name = "BatteryNotification Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "BatteryNotification Watch AppTests";
+			productReference = BFB7032C2C979CFC0064418D /* BatteryNotification Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFB703352C979CFC0064418D /* BatteryNotification Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB7034A2C979CFC0064418D /* Build configuration list for PBXNativeTarget "BatteryNotification Watch AppUITests" */;
+			buildPhases = (
+				BFB703322C979CFC0064418D /* Sources */,
+				BFB703332C979CFC0064418D /* Frameworks */,
+				BFB703342C979CFC0064418D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB703382C979CFC0064418D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BFB703392C979CFC0064418D /* BatteryNotification Watch AppUITests */,
+			);
+			name = "BatteryNotification Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "BatteryNotification Watch AppUITests";
+			productReference = BFB703362C979CFC0064418D /* BatteryNotification Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB7030E2C979CFA0064418D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					BFB703132C979CFA0064418D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BFB703192C979CFA0064418D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BFB7032B2C979CFC0064418D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BFB703192C979CFA0064418D;
+					};
+					BFB703352C979CFC0064418D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BFB703192C979CFA0064418D;
+					};
+				};
+			};
+			buildConfigurationList = BFB703112C979CFA0064418D /* Build configuration list for PBXProject "BatteryNotification" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB7030D2C979CFA0064418D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BFB703152C979CFA0064418D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB703132C979CFA0064418D /* BatteryNotification */,
+				BFB703192C979CFA0064418D /* BatteryNotification Watch App */,
+				BFB7032B2C979CFC0064418D /* BatteryNotification Watch AppTests */,
+				BFB703352C979CFC0064418D /* BatteryNotification Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB703122C979CFA0064418D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB703182C979CFA0064418D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB7032A2C979CFC0064418D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB703342C979CFC0064418D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB703162C979CFA0064418D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB703282C979CFC0064418D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB703322C979CFC0064418D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB7031D2C979CFA0064418D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB703192C979CFA0064418D /* BatteryNotification Watch App */;
+			targetProxy = BFB7031C2C979CFA0064418D /* PBXContainerItemProxy */;
+		};
+		BFB7032E2C979CFC0064418D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB703192C979CFA0064418D /* BatteryNotification Watch App */;
+			targetProxy = BFB7032D2C979CFC0064418D /* PBXContainerItemProxy */;
+		};
+		BFB703382C979CFC0064418D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB703192C979CFA0064418D /* BatteryNotification Watch App */;
+			targetProxy = BFB703372C979CFC0064418D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFB7033E2C979CFC0064418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFB7033F2C979CFC0064418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BFB703412C979CFC0064418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BatteryNotification Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = MU94BSN9Y3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BatteryNotification;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NAKARAI.BatteryNotification.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		BFB703422C979CFC0064418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BatteryNotification Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = MU94BSN9Y3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BatteryNotification;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NAKARAI.BatteryNotification.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		BFB703452C979CFC0064418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MU94BSN9Y3;
+				INFOPLIST_KEY_CFBundleDisplayName = BatteryNotification;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NAKARAI.BatteryNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BFB703462C979CFC0064418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MU94BSN9Y3;
+				INFOPLIST_KEY_CFBundleDisplayName = BatteryNotification;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NAKARAI.BatteryNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB703482C979CFC0064418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MU94BSN9Y3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NAKARAI.BatteryNotification-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatteryNotification Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BatteryNotification Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		BFB703492C979CFC0064418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MU94BSN9Y3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NAKARAI.BatteryNotification-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatteryNotification Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BatteryNotification Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		BFB7034B2C979CFC0064418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MU94BSN9Y3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NAKARAI.BatteryNotification-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BatteryNotification Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		BFB7034C2C979CFC0064418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MU94BSN9Y3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NAKARAI.BatteryNotification-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BatteryNotification Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB703112C979CFA0064418D /* Build configuration list for PBXProject "BatteryNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB7033E2C979CFC0064418D /* Debug */,
+				BFB7033F2C979CFC0064418D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB703402C979CFC0064418D /* Build configuration list for PBXNativeTarget "BatteryNotification Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB703412C979CFC0064418D /* Debug */,
+				BFB703422C979CFC0064418D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB703442C979CFC0064418D /* Build configuration list for PBXNativeTarget "BatteryNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB703452C979CFC0064418D /* Debug */,
+				BFB703462C979CFC0064418D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB703472C979CFC0064418D /* Build configuration list for PBXNativeTarget "BatteryNotification Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB703482C979CFC0064418D /* Debug */,
+				BFB703492C979CFC0064418D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB7034A2C979CFC0064418D /* Build configuration list for PBXNativeTarget "BatteryNotification Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB7034B2C979CFC0064418D /* Debug */,
+				BFB7034C2C979CFC0064418D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFB7030E2C979CFA0064418D /* Project object */;
+}
